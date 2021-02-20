@@ -19,7 +19,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 <img src="http://g.recordit.co/vCpikSVGNu.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+Ran into an error ("The local repository is out of date. Make sure all changes have been pulled from the remote repository and try again.") when I tried pushing the changes into github because I had forgotten to pull the README file from the remote repository into the local repository from Flix Part 1. I didn't want to risk losing the changes I made by pulling in the older copy from Part 1, so I force-pushed via the terminal. Lost the inital README file, had to re-create it. That was the only (very) minor issue. 
 
 ---
 
@@ -40,4 +40,4 @@ Describe any challenges encountered while building the app.
 <img src="http://g.recordit.co/U3BwncaUmO.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+Had an issue with installing Coco Pods but managed to resolve it by using the following two commands in the terminal: "sudo arch -x86_64 gem install ffi" followed by "arch -x86_64 pod install" 
